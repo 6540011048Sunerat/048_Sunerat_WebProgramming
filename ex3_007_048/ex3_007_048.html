@@ -1,0 +1,111 @@
+้<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Active Leanning</title>
+</head>
+<body>
+    <h1>รายชื่อ</h1>
+    <ol>
+        <li>6540011007 นายคุณัชญ์  สายสิงห์</li>
+        <li>6540011048 นางสาวสุณีรัตน์ กระวี</li>
+    </ol>
+    <h1>ฟอร์มลงทะเบียนศิษย์เก่า IT + IS</h1>
+    <form action="">
+        <label for="name">ชื่อ - นามสกุล :</label>
+        <input
+        type="text" 
+        name="ชื่อ"
+        placeholder=""
+        size="40"/>
+
+        <br><br>
+        <label for="name">รหัสนักศึกษา :</label>
+        <input
+        type="text" 
+        name="รหัสนักศึกษา"
+        size="20"
+        maxlength= "10"/>
+
+        <br><br>
+        <label for="gender">เพศ :</label>
+        <input type="radio" name="gender" /> ชาย
+        <input type="radio" name="gender" /> หญิง
+        
+        <br><br>
+        <label for="yearstudied">ปีการศึกษา : </label>
+        <select name="yearstudied">
+            <option value="------">------</option>
+            <option value="1">2559</option>
+            <option value="2">2560</option>
+            <option value="3">2563</option>
+            <option value="4">2564</option>
+            <option value="5">2565</option>
+            <option value="6">2566</option>
+        </select>
+
+        <br><br>
+        <label for="address">ที่อยู่ :</label>
+        <textarea name="ที่อยู่" cols="30" rows="5">
+        
+        </textarea>
+
+        <br><br>
+        <label for="email">อีเมล : </label>
+        <input type="email" name="email" 
+        size="30" />
+
+        <br><br>
+        <label for="phone">เบอร์โทรติดต่อ : </label>
+        <input type="text" name="phone" 
+        size="30" maxlength="10"/>
+
+        <br><br>
+        <label for="department">ชื่อหลักสูตร : </label>
+        <select name="department">
+            <option value="------">------</option>
+            <option value="1">IT</option>
+            <option value="2">IS</option>
+        </select>
+
+        <br><br>
+        <label for="occupation">อาชีพปัจจุบัน :</label>
+        <input
+        type="text" 
+        name="occupation"
+        placeholder=""
+        size="30"/>
+
+        <br><br>
+        <h4>สถานที่ทำงาน</h4>
+        <label for="company">ชื่อบริษัท :</label>
+        <input
+        type="text" 
+        name="company"
+        size="20"/>
+        <br><br>
+        <label for="companyaddress">ที่อยู่บริษัท :</label>
+        <textarea companyaddress="ที่อยู่บริษัท" cols="20" rows="5">
+        </textarea>
+
+        <br><br>
+        <label for="department">ประเภทงานที่ทำ : </label>
+        <select name="department">
+            <option value="------">------</option>
+            <option value="Wed Developer">Wed Developer</option>
+            <option value="SA">SA</option>
+            <option value="Graphic Design">Graphic Design</option>
+            <option value="Digital Marketing">Digital Marketing</option>
+        </select>
+
+        <br><br>
+        <label for="profile">Upload รูปถ่ายตัวเอง 1 รูป : </label>
+        <input type="file" name="profile">
+
+        <br><br>
+        <input type="submit" value="ส่งข้อมูล"/>
+
+    </form>
+</body>
+</html>
