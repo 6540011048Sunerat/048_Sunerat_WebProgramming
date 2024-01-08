@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inclass Box Model</title>
+    <style>
+        .main{
+            margin: 20px auto;
+            width: 1000px;
+            padding: 30px 0;
+            border: 3px double;
+            text-align: center;
+        }
+        .logotext{
+            /* คำสังทำให้ตัวอักษรเป็นพิมใหญ่ */
+            text-transform: uppercase;
+        }
+        .firstText{
+            margin: 0;
+        }
+        .mainText{
+            margin: 0;
+        }
+        .subText{
+            margin: 0;
+        }
+        .menu{
+            /* ปรับขนาดว่าต้องการเท่าไร */
+            width: 80%;
+            /* auto คำนวณเองโดยใช้ตัวเลขที่มี */
+            margin: 10px auto;
+            padding-left: 0;
+            border-top: 5px solid;
+            border-bottom: 2px solid;
+            padding: 8px 0;
+            letter-spacing: 2px;
+            
+        }
+        .menu>li{
+            display: inline;
+            margin-right: 20px;
+            text-transform: uppercase;
+            
+        }
+        .mainpic{
+            width: 300px;
+        }
+        .footer{
+            width: 60%;
+            margin: 10px auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="logotext">
+    <p class="firstText">the</p>
+    <h1 class="mainText">analog</h1>
+    <h2 class="subText">specialists</h2>
+</div>
+    <ul class="menu">
+        <li>home</li>
+        <li>for sale</li>
+        <li>repairs</li>
+        <li>about</li>
+        <li>contact</li>
+    </ul>
+    
+    <img src="images/Piano1.jpg" alt="" class="mainpic"/>
+    <img src="images/Piano2.jpg" alt=""class="mainpic"/>
+    <img src="images/Piano3.jpg" alt=""class="mainpic"/>
+    <p class="footer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore doloremque rem quis voluptatum. Qui porro soluta debitis iure dolorem? Explicabo et iure necessitatibus qui nesciunt non minima sapiente aperiam voluptate.</p>
+</div>
+</body>
+</html>
