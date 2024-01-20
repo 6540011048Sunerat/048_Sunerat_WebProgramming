@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body{ font-family: 'Oswald', sans-serif;}
+
+.navbar-brand {
+    color: #fca311;
+}
+.portfolio1{
+    background-color: #fcbf49;
+}
+.portfolio3{
+    background-color: #f77f00;
+}
