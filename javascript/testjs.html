@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript</title>
+  </head>
+  <body>
+    <h1>JavaScript</h1>
+    <script>
+      // let name = 'Piyanate';
+      // c=confirm('Are you sure');
+      // if(c){
+      //     document.write("Hello"+name);
+      // }else{
+      //     document.write("Goodbye"+name);
+      // }
+      // Array
+      let dept;
+      let scores = [10, 20, 34, 56, 11];
+      let sum = 0;
+      for (var i = 0; i < 5; i++) {
+        document.write(scores[i]+"<br>");
+        sum+=scores[i];
+      }
+      document.write("Sum = "+ sum+"<br>");
+    //   นับจำนวนสมาชิกทั้งหมดในอาร์เรย์
+      document.write("Aug = "+sum/scores.length);
+    //   document.write(dept);
+    // for&while ใช้เหมือนกัน
+    var j=0;
+    while (j < 5){
+        document.write(scores[j]+"<br>");
+        sum+= scores[j];
+        j++;
+    }
+
+    let c = 40;
+    let f =(c)*(9/5)+32;
+    document.write('Fahrenheit (F)'+f+"<br>");
+
+    let ce = ((f-32)*5)/9;
+    document.write("celsius (C)"+ce);
+    </script>
+  </body>
+</html>
